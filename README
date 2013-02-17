@@ -9,7 +9,7 @@ make config
 if make states that the action does not exist then it does not need to be done in this case.
 
 Make aptmod and config are seperate from depends and config because they would not be needed for every reinstallation.  
-They may even do damageto your system.
+They may even do damage to your system.
 
-When in double don't use them and see if it works without.
+When in doubt don't use them and see if it works without.
 
