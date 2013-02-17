@@ -1,0 +1,13 @@
+
+Follows the form
+
+make aptmod
+make depends
+make
+make install
+make config
+
+if make states that the action does not exist then it does not need to be done in this case.
+
+Make aptmod and config are seperate from depends and config because they would not be needed for every reinstallation.  They may even do damage
+to your system.
