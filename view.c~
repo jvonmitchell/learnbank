@@ -1,0 +1,28 @@
+
+
+#include "macros.h"
+#include <fcgi-stdio.h>
+#include <stdio.h>
+#include <cgi.h>
+#include <myslq.h>
+
+
+void handle_it()
+{
+	char
+
+
+int main(int argc,char **argv)
+{
+
+	
+	
+	
+	
+	while( FCGI_Accept() || cmdrepeat )
+	{
+		cgi_init();
+		handle_it();
+	
+	
+	}
